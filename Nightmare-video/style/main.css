@@ -7,12 +7,12 @@
 
 @font-face {
     font-family: '1';
-    src: url('/fonts/Satanyc_Demoniac_St.ttf');
+    src: url('/bootcamp-dio-netflix_clone/Nightmare-video/fonts/Satanyc_Demoniac_St.ttf');
 }
 
 @font-face {
     font-family: '2';
-    src: url('/fonts/Vampetica_Regular.ttf');
+    src: url('/bootcamp-dio-netflix_clone/Nightmare-video/fonts/Vampetica_Regular.ttf');
 }
 
 * body {
@@ -24,7 +24,7 @@
 /* HEADER */
 
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url('/img/logo.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url('/bootcamp-dio-netflix_clone/Nightmare-video/img/logo.jpg');
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -103,7 +103,7 @@ header nav a:hover {
 /* MAIN */
 
 .filme-principal {
-    background: linear-gradient(rgba(0, 0, 0, .60), rgba(0, 0, 0, .60)), url('/img/capa.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .60), rgba(0, 0, 0, .60)), url('/bootcamp-dio-netflix_clone/Nightmare-video/img/capa.jpg');
     height: 400px;
     background-size: cover;
     border-radius: 10px;
@@ -164,7 +164,7 @@ header nav a:hover {
 /* lista videos */
 
 section {
-    background-image: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url("/img/fundo.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url("/bootcamp-dio-netflix_clone/Nightmare-video/img/fundo.jpg");
     padding-bottom: 60px;
     box-shadow: 0px 0px 5px white;
 }
