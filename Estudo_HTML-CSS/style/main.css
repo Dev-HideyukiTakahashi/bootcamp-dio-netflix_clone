@@ -1,0 +1,218 @@
+:root {
+    --red: #850d0b;
+    --red1: #e51104;
+    --black: #060202;
+    --gray: #827b7b;
+}
+
+@font-face {
+    font-family: '1';
+    src: url('/fonts/Satanyc_Demoniac_St.ttf');
+}
+
+@font-face {
+    font-family: '2';
+    src: url('/fonts/Vampetica_Regular.ttf');
+}
+
+* body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER */
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url('/img/logo.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 70px 0 70px;
+}
+
+.logo {
+    height: 90px;
+    color: var(--red1);
+    font-family: '1', Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    text-shadow: -5px -10px 30px var(--gray);
+}
+
+#search {
+    border: 1px solid var(--black);
+    border-radius: 4px;
+    height: 25px;
+    width: 85%;
+    padding: 0.3em;
+    margin-right: 4px;
+}
+
+form input,
+form button {
+    font-size: 1.2em;
+    border: none;
+    padding: 0.2em;
+}
+
+#search:hover {
+    box-shadow: -5px -10px 30px var(--gray);
+}
+
+.buscador {
+    border-radius: 10px;
+    padding-bottom: 6px;
+}
+
+.form-busca {
+    display: flex;
+    align-items: center;
+}
+
+.busca {
+    cursor: pointer;
+}
+
+.busca:hover {
+    box-shadow: -5px -10px 30px var(--gray);
+}
+
+.navegacao {
+    height: 40px;
+}
+
+header nav a {
+    font-size: 24px;
+    padding-right: 30px;
+    font-family: '2', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: var(--red);
+}
+
+header nav a:hover {
+    color: var(--red1);
+}
+
+
+/* MAIN */
+
+.filme-principal {
+    background: linear-gradient(rgba(0, 0, 0, .60), rgba(0, 0, 0, .60)), url('/img/capa.jpg');
+    height: 400px;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 15px 6px 20px var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 80px 130px 80px;
+}
+
+.filme-principal .container {
+    width: 75%;
+}
+
+.filme-principal .titulo {
+    color: white;
+    font-weight: bold;
+    margin-left: 12px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: -5px -10px 30px var(--gray);
+}
+
+.filme-principal .descricao {
+    margin-left: 20px;
+    margin-bottom: 50px;
+    line-height: 22px;
+}
+
+.filme-principal .botao {
+    font-family: '1', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background-color: black;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    padding: 10px 15px;
+    margin-right: 12px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    margin-left: 12px;
+    box-shadow: 9px 15px var(--red);
+}
+
+.filme-principal .botao:hover {
+    background-color: var(--red1);
+    color: white;
+    border-color: white;
+    box-shadow: -5px -10px 30px white;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+
+/* lista videos */
+
+section {
+    background-image: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url("/img/fundo.jpg");
+    padding-bottom: 60px;
+    box-shadow: 0px 0px 5px white;
+}
+
+.section-tittle {
+    font-family: '2', Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    padding: 36px 0 36px 0;
+    color: var(--red1);
+    text-align: center;
+    text-shadow: -5px -10px 30px var(--gray);
+}
+
+.carrosel-movies {
+    margin: 0px 50px 0px 50px;
+}
+
+.carrosel-movies .item {
+    width: 80%;
+    padding: 4px 0 4px 0;
+}
+
+.carrosel-movies .item:hover {
+    width: 100%;
+    transition: 1.3s 600ms all;
+}
+
+.box-filme {
+    cursor: pointer;
+    border-radius: 10px;
+    filter: brightness(.6);
+    box-shadow: 0 0 1em var(--red);
+}
+
+.box-filme:hover {
+    filter: grayscale(0%);
+    filter: brightness(1.4);
+    box-shadow: none;
+}
+
+
+/* Footer */
+
+.footer {
+    font-family: '2', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: red;
+    padding: 8px 0 8px 0;
+    display: flex;
+    justify-content: center;
+}
