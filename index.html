@@ -26,9 +26,9 @@
                     </button>
                 </form>
                 <a href="#"><u>Início</u></a>
-                <a href="#"><u>Séries</u></a>
-                <a href="#"><u>Filmes</u></a>
-                <a href="#"><u>Clássicos</u></a>
+                <a href="#filmes"><u>Filmes</u></a>
+                <a href="#series"><u>Séries</u></a>
+                <a href="#classicos"><u>Clássicos</u></a>
             </nav>
         </div>
     </header>
@@ -48,8 +48,18 @@
                     em Tóquio.
                 </p>
                 <div class="botoes">
-                    <button role="button" class="botao"><i class="fa-solid fa-play"></i>ASSISTIR AGORA</button>
-                    <button role="button" class="botao"><i class="fa-solid fa-circle-info"></i>MAIS INFORMAÇÕES</button>
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-play"></i>
+                        <a href="https://www.youtube.com/embed/B9slkU65r_I">
+                            ASSISTIR AGORA
+                        </a>
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <a href="https://www.themoviedb.org/movie/2671" target="_blank">
+                            MAIS INFORMAÇÕES
+                        </a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -57,7 +67,7 @@
 
     <section>
         <div class="carrosel-movies">
-            <div class="section-tittle"><u>Filmes</u></div>
+            <div class="section-tittle" id="filmes"><u>Filmes</u></div>
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <img class="box-filme" src="/bootcamp-dio-netflix_clone/Nightmare-video/img/filmes/filme1.jpg" alt="filme1">
@@ -100,7 +110,7 @@
     </section>
     <section>
         <div class="carrosel-movies">
-            <div class="section-tittle"><u>Séries</u></div>
+            <div class="section-tittle" id="series"><u>Séries</u></div>
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <img class="box-filme" src="/bootcamp-dio-netflix_clone/Nightmare-video/img/series/terror1.jpg" alt="filme1">
@@ -144,7 +154,7 @@
 
     <section>
         <div class="carrosel-movies">
-            <div class="section-tittle"><u>Clássicos</u></div>
+            <div class="section-tittle" id="classicos"><u>Clássicos</u></div>
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <img class="box-filme" src="/bootcamp-dio-netflix_clone/Nightmare-video/img/classicos/classic1.jpg" alt="filme1">

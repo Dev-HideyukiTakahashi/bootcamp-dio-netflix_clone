@@ -138,8 +138,8 @@ header nav a:hover {
     font-style: normal;
     background-color: black;
     border-radius: 10px;
-    border-color: white;
     color: white;
+    border-color: white;
     padding: 10px 15px;
     margin-right: 12px;
     font-size: 12px;
@@ -147,6 +147,11 @@ header nav a:hover {
     transition: .3s ease all;
     margin-left: 12px;
     box-shadow: 9px 15px var(--red);
+}
+
+.botao a {
+    text-decoration: none;
+    color: white;
 }
 
 .filme-principal .botao:hover {
