@@ -40,15 +40,8 @@
     .botoes {
         display: flex;
     }
-    .carrosel-movies .item {
-        width: 100%;
-    }
     .box-filme {
         box-shadow: none;
-        filter: none;
-    }
-    .box-filme:hover {
-        filter: none;
     }
     header nav a {
         padding-right: 14px;
